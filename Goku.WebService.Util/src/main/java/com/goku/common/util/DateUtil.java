@@ -16,7 +16,7 @@ public  class DateUtil {
             try {
                 cd = sdf.parse(DateString);
             } catch (ParseException e) {
-                //e.printStackTrace();
+                e.printStackTrace();
             }
             return cd;
         } else {
